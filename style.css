@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(176, 147, 193);
+    text-align: center;
+    
+
+}
+
+/* this is for text alignment */
+nav{
+  width: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  
+}
+
+/* this is for logo alignment */
+nav .logo{
+width: 80px;
+
+
+/* This  is for text(home, contact us) designing */}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+nav ul li{
+list-style: none;
+display: inline-block;
+margin-left: 40px;
+}
+
+
+/* headline 1 */
+h1{
+  color: rgb(16, 17, 18);
+  
+}
+h2{
+  color: rgb(0, 0, 0);
+}
+
+/*backgound animation*/
+.container {
+  height: 100vh;
+  width: 100%;
+background-image: url(download.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+transition: 5s;
+
+
+animation-name: animate ;
+animation-direction: alternate-reverse;
+animation-duration: 30s ;
+animation-fill-mode:  forwards;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes animate{
+   0%{
+      background-image:url(download.jpg) ;
+   }20%{
+        background-image: url(laptop2.jpg);
+   }40%{
+            background-image: url(laptop3.jpg);
+   }60%{
+                background-image: url(laptop4.jpg);
+   }80%{
+                    background-image: url(laptop5.jpg);
+   }100%{
+                        background-image: url(laptop6.jpg);
+  
+}
+   
