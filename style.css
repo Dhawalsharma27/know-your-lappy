@@ -81,10 +81,10 @@ nav ul li a{
   display: flex;
   cursor: pointer;
  padding: 10px 20px;
- background: #fff;
+ background: #ffffff;
  border-radius: 30px;
  align-items: center;
- box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+ box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3);
 }
 
 .box:hover input{
