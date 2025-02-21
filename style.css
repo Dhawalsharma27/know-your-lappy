@@ -84,7 +84,7 @@ nav ul li a{
  background: #ffffff;
  border-radius: 30px;
  align-items: center;
- box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3);
+ box-shadow: 0 10px 25px rgb(255, 255, 255);
 }
 
 .box:hover input{
@@ -103,8 +103,4 @@ nav ul li a{
 .box a .fas{
   color: #000000;
   font-size: 18px;
-}
-.logo{
-  height: 10px;
-  width: 3%;
 }
