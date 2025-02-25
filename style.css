@@ -121,3 +121,10 @@ ul .list{
 .list-items:hover {
   background-color: #dddddd;
 }
+.border{
+  border: 2px solid transparent;
+
+}
+.border:hover{
+  border: 2px solid white;
+}
