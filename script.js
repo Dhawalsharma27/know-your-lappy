@@ -9,7 +9,7 @@ let names = [
     "Lenovo thinkbook 14",
     "ASUS TUF Gaming A14 FA401WV",
     "ASUS Zenbook S 14 (UX5406)",
-    "Sam",
+    "Mac",
     "Sandy",
     "Danny",
     "Ellen",
