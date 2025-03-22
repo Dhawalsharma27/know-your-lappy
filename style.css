@@ -45,9 +45,7 @@ nav ul li a{
   font-size: 17px;
 
 }
-.content{
-  text-align: center;
-}
+
 .content h1{
   text-align: left;
   align-items:center;
@@ -62,11 +60,12 @@ nav ul li a{
   right: 0;
   bottom: 0;
   z-index: -1;
+  
 }
 
 @media(min-aspect-ratio: 16/9) {
   .back-video{
-    width:100%;
+    width: 100%;
     height: auto;
   }
 }
@@ -90,8 +89,9 @@ nav ul li a{
 }
 
 .box:hover input{
-  
+
   width: 400px;
+  
 }
 
 .box input{
